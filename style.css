@@ -1,0 +1,78 @@
+.main-container{
+    /* THIS CAN BE USED AS WELL
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    THIS CAN BE USED AS WELL */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.output-screen{
+    width: 420px;
+    height: 40px;
+    background: #2F3B4B;
+    padding-top: 40px;
+    display: flex;
+    justify-content: right;
+    padding-bottom: 20px;
+    padding-right:20px;
+    border-radius: 16px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: inter;
+}
+.keypads{
+    width: 400px;
+    height: 420px;
+    background-color: #3B5069;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 16px;
+}
+.num{
+    background-color: #AABCCF;
+    width: 88px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: #2F3B4B;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: inter;
+    border-radius: 8px;
+    border-bottom: 4px solid #5C7A9B;
+}
+.del-btn{
+    background-color: #5C7A9B;
+    color: white;
+    border-bottom: 4px solid #2F3B4B;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.margin-top{
+    margin-top: 20px;
+}
+.btn-container-btm{
+    display: flex;
+    justify-content: center;
+}
+.num1{
+    background-color: #C20000;
+    color: white;
+    width: 188px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #800000;
+}
+.num2{
+    margin-left: 20px;
+    background-color: #009E67;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #00754C;
+}
