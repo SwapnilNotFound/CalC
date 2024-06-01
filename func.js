@@ -75,6 +75,5 @@ numberPlus.addEventListener("click", (e)=>{
     const val3 = Number(val1) + Number(val2);
     console.log(val3);
     output.innerText = val3;
-    console.log("Test");
     }
 )
